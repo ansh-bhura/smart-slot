@@ -1,0 +1,25 @@
+{
+ "scenario": "low_obj",
+ "slot": 3,
+ "truth_per_slot": [
+  "FREE",
+  "FREE",
+  "LOW"
+ ],
+ "expect": "2",
+ "marks_ms": [
+  451275,
+  461632
+ ],
+ "baselines": [
+  17.6,
+  17.9,
+  17.4
+ ],
+ "first_after_cal": false,
+ "trials_since_cal": 10,
+ "session": "20261009_183612",
+ "room_temp_c": "25",
+ "started": "2026-10-09T18:43:50",
+ "rows": 99
+}

@@ -1,0 +1,227 @@
+{
+ "fold0": {
+  "Threshold-only (tuned)": {
+   "T": 1.5
+  },
+  "Bands-only (tuned)": {
+   "t_trig": 1.25,
+   "bike_min": 2.5,
+   "bike_max": 5.0,
+   "hyst": 0.5
+  },
+  "Rules (tuned)": {
+   "t_trig": 1.0,
+   "bike_min": 2.2,
+   "bike_max": 6.0,
+   "sigma_max": 1.6,
+   "stable_ms": 1500,
+   "hyst": 0.5
+  },
+  "CUSUM": {
+   "k": 1.2,
+   "h": 16.0,
+   "cap": 5.0,
+   "h_leave": 10.0,
+   "sigma_max": 1.6,
+   "bike_min": 2.5,
+   "bike_max": 5.8,
+   "t_trig": 1.0
+  },
+  "Kalman-gated": {
+   "gate": 3.0,
+   "n_acc": 20,
+   "q": 0.02,
+   "bike_min": 3.0,
+   "bike_max": 6.2,
+   "t_trig": 1.5,
+   "hyst": 1.0
+  },
+  "Feature-HMM": {
+   "p_stay": 0.99
+  },
+  "Decision tree": {
+   "depth": 5,
+   "vote": 9
+  }
+ },
+ "fold1": {
+  "Threshold-only (tuned)": {
+   "T": 1.5
+  },
+  "Bands-only (tuned)": {
+   "t_trig": 1.0,
+   "bike_min": 2.8,
+   "bike_max": 5.5,
+   "hyst": 0.5
+  },
+  "Rules (tuned)": {
+   "t_trig": 1.25,
+   "bike_min": 2.0,
+   "bike_max": 5.0,
+   "sigma_max": 1.6,
+   "stable_ms": 2000,
+   "hyst": 0.5
+  },
+  "CUSUM": {
+   "k": 1.2,
+   "h": 16.0,
+   "cap": 5.0,
+   "h_leave": 6.0,
+   "sigma_max": 1.2,
+   "bike_min": 2.2,
+   "bike_max": 5.8,
+   "t_trig": 1.5
+  },
+  "Kalman-gated": {
+   "gate": 3.0,
+   "n_acc": 20,
+   "q": 0.02,
+   "bike_min": 2.2,
+   "bike_max": 6.2,
+   "t_trig": 1.0,
+   "hyst": 1.0
+  },
+  "Feature-HMM": {
+   "p_stay": 0.99
+  },
+  "Decision tree": {
+   "depth": 4,
+   "vote": 9
+  }
+ },
+ "fold2": {
+  "Threshold-only (tuned)": {
+   "T": 1.5
+  },
+  "Bands-only (tuned)": {
+   "t_trig": 1.0,
+   "bike_min": 2.8,
+   "bike_max": 5.5,
+   "hyst": 0.5
+  },
+  "Rules (tuned)": {
+   "t_trig": 1.25,
+   "bike_min": 2.2,
+   "bike_max": 6.0,
+   "sigma_max": 0.8,
+   "stable_ms": 1500,
+   "hyst": 1.0
+  },
+  "CUSUM": {
+   "k": 1.2,
+   "h": 16.0,
+   "cap": 5.0,
+   "h_leave": 10.0,
+   "sigma_max": 1.2,
+   "bike_min": 3.0,
+   "bike_max": 5.8,
+   "t_trig": 1.5
+  },
+  "Kalman-gated": {
+   "gate": 3.0,
+   "n_acc": 20,
+   "q": 0.05,
+   "bike_min": 2.5,
+   "bike_max": 5.8,
+   "t_trig": 1.0,
+   "hyst": 0.5
+  },
+  "Feature-HMM": {
+   "p_stay": 0.95
+  },
+  "Decision tree": {
+   "depth": 4,
+   "vote": 9
+  }
+ },
+ "fold3": {
+  "Threshold-only (tuned)": {
+   "T": 1.5
+  },
+  "Bands-only (tuned)": {
+   "t_trig": 1.25,
+   "bike_min": 2.5,
+   "bike_max": 5.5,
+   "hyst": 0.5
+  },
+  "Rules (tuned)": {
+   "t_trig": 1.0,
+   "bike_min": 2.2,
+   "bike_max": 5.5,
+   "sigma_max": 1.2,
+   "stable_ms": 2000,
+   "hyst": 1.0
+  },
+  "CUSUM": {
+   "k": 1.2,
+   "h": 16.0,
+   "cap": 5.0,
+   "h_leave": 6.0,
+   "sigma_max": 1.6,
+   "bike_min": 2.5,
+   "bike_max": 5.8,
+   "t_trig": 1.0
+  },
+  "Kalman-gated": {
+   "gate": 4.0,
+   "n_acc": 20,
+   "q": 0.02,
+   "bike_min": 3.0,
+   "bike_max": 5.8,
+   "t_trig": 1.0,
+   "hyst": 0.5
+  },
+  "Feature-HMM": {
+   "p_stay": 0.97
+  },
+  "Decision tree": {
+   "depth": 4,
+   "vote": 9
+  }
+ },
+ "fold4": {
+  "Threshold-only (tuned)": {
+   "T": 1.5
+  },
+  "Bands-only (tuned)": {
+   "t_trig": 1.25,
+   "bike_min": 2.8,
+   "bike_max": 5.5,
+   "hyst": 0.5
+  },
+  "Rules (tuned)": {
+   "t_trig": 1.25,
+   "bike_min": 2.2,
+   "bike_max": 5.0,
+   "sigma_max": 0.5,
+   "stable_ms": 1500,
+   "hyst": 1.0
+  },
+  "CUSUM": {
+   "k": 0.8,
+   "h": 16.0,
+   "cap": 5.0,
+   "h_leave": 6.0,
+   "sigma_max": 0.8,
+   "bike_min": 2.2,
+   "bike_max": 5.8,
+   "t_trig": 1.5
+  },
+  "Kalman-gated": {
+   "gate": 3.0,
+   "n_acc": 20,
+   "q": 0.05,
+   "bike_min": 3.0,
+   "bike_max": 6.2,
+   "t_trig": 1.5,
+   "hyst": 0.5
+  },
+  "Feature-HMM": {
+   "p_stay": 0.995
+  },
+  "Decision tree": {
+   "depth": 4,
+   "vote": 9
+  }
+ }
+}

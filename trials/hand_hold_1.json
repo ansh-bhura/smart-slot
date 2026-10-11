@@ -1,0 +1,25 @@
+{
+ "scenario": "hand_hold",
+ "slot": 1,
+ "truth_per_slot": [
+  "HAND",
+  "FREE",
+  "FREE"
+ ],
+ "expect": "2",
+ "marks_ms": [
+  1097215,
+  1109069
+ ],
+ "baselines": [
+  17.7,
+  17.9,
+  17.4
+ ],
+ "first_after_cal": false,
+ "trials_since_cal": 27,
+ "session": "20261009_175202",
+ "room_temp_c": "25",
+ "started": "2026-10-09T18:10:40",
+ "rows": 114
+}

@@ -1,0 +1,25 @@
+{
+ "scenario": "bike",
+ "slot": 2,
+ "truth_per_slot": [
+  "FREE",
+  "BIKE",
+  "FREE"
+ ],
+ "expect": "1",
+ "marks_ms": [
+  1464990,
+  1479705
+ ],
+ "baselines": [
+  17.7,
+  17.9,
+  17.4
+ ],
+ "first_after_cal": false,
+ "trials_since_cal": 11,
+ "session": "20261009_183612",
+ "room_temp_c": "25",
+ "started": "2026-10-09T19:00:51",
+ "rows": 128
+}

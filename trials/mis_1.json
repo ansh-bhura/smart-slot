@@ -1,0 +1,25 @@
+{
+ "scenario": "mis",
+ "slot": 1,
+ "truth_per_slot": [
+  "MIS",
+  "MIS",
+  "FREE"
+ ],
+ "expect": "3",
+ "marks_ms": [
+  2462513,
+  2477526
+ ],
+ "baselines": [
+  17.7,
+  17.9,
+  17.4
+ ],
+ "first_after_cal": false,
+ "trials_since_cal": 28,
+ "session": "20261009_183612",
+ "room_temp_c": "25",
+ "started": "2026-10-09T19:17:42",
+ "rows": 145
+}

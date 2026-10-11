@@ -1,0 +1,27 @@
+{
+ "scenario": "mis",
+ "slot": 2,
+ "truth_per_slot": [
+  "FREE",
+  "MIS",
+  "MIS"
+ ],
+ "expect": "3",
+ "marks_ms": [
+  335191,
+  349747
+ ],
+ "baselines": [
+  17.7,
+  17.5,
+  17.5
+ ],
+ "first_after_cal": false,
+ "trials_since_cal": 4,
+ "session": "20261009_234518",
+ "room_temp_c": "25",
+ "started": "2026-10-09T23:51:08",
+ "rows": 132,
+ "slot_as_recorded": 1,
+ "relabel_note": "recorded as slot 1, but sensors show the bike across slots 2-3 (slot 1 delta ~0)"
+}

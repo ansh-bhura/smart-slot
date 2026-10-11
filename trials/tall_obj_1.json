@@ -1,0 +1,25 @@
+{
+ "scenario": "tall_obj",
+ "slot": 1,
+ "truth_per_slot": [
+  "TALL",
+  "FREE",
+  "FREE"
+ ],
+ "expect": "2",
+ "marks_ms": [
+  517011,
+  527213
+ ],
+ "baselines": [
+  17.6,
+  17.9,
+  17.4
+ ],
+ "first_after_cal": false,
+ "trials_since_cal": 12,
+ "session": "20261009_183612",
+ "room_temp_c": "25",
+ "started": "2026-10-09T18:44:55",
+ "rows": 97
+}
