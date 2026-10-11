@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Smart Slot: firmware, evaluation code and labelled trials"
+type: software
+authors:
+  - family-names: "Bhura"
+    given-names: "Ansh"
+  - family-names: "S"
+    given-names: "Jaikiruthik"
+  - family-names: "Gupta"
+    given-names: "Aryan"
+  - family-names: "Jaffino"
+    given-names: "Georgepeter"
+version: "v1.0.0"
+doi: "10.5281/zenodo.23293467"
+date-released: "2026-10-11"
+license: MIT
+repository-code: "https://github.com/ansh-bhura/smart-slot"
